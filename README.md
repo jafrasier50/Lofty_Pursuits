@@ -1,4 +1,4 @@
-<h2>Lofty Pursuits Website<h2>
+<h2>Lofty Pursuits Website</h2>
 
 
 Is a revamp of pd.net. This web appication will allow the admin to sign in, add content
