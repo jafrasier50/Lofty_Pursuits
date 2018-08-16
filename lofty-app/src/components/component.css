@@ -1,3 +1,9 @@
+/* body CSS */
+
+body{
+    background-color: gray
+}
+
 /* Menubar CSS */
 
 .menubar {
@@ -5,8 +11,10 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #17A46E;
-    height: 70px;
+    border-top: .2rem solid #17A46E;
+    border-bottom: .2rem solid #17A46E;
+    background-color: #094166;
+    height: auto;
 }
 .menubar_navigaton {
     display: flex;
@@ -20,7 +28,7 @@
 }
 
 .menubar_logo a {
-    color: #FBB516;
+    color: #FBB516; 
     font-style: italic;
     font-weight: 600;
     text-decoration: none;
@@ -49,7 +57,7 @@
 
 .menubar_navigation-items a:hover,
 .menubar_navigation-items a:active {
-    color:purple
+    color: #FBB516;
 }
 
 /* HamburgerButton/menu Css */
@@ -74,12 +82,12 @@
 .toggle-button_line {
     width: 25px;
     height: 2px;
-    background-color:purple;
+    background-color:#FBB516;
 }
 
 .hamburger-menu {
     height: 100%;
-    background-color: darkslateblue;
+    background-color: #094166;
     box-shadow: 1px 0px 7px rgba(0,0,0,0.5);
     position: fixed;
     top: 0;
@@ -130,20 +138,21 @@
     z-index: 100;
 }
 
-@media(max-width:768px) {
+@media(max-width:976px) {
     .menubar_navigation-items{
         display: none;
     }
 }
 
-@media(min-width:769px) {
-      
-    .hamMenu_toggle-button{
+@media(min-width:977px) {
+    .hamburger-menu{
+        display: none
+    }
+    .hamMenu_toggle-button {
         display: none;
     }
-
-    .menubar_logo{
-        margin-left: 0
+    .menubar_logo {
+        margin-left: 0;
     }
 }
 

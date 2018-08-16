@@ -30,8 +30,8 @@ class App extends Component {
         <Menubar HamMenuClickHandler={this.HamMenuToggleClickHandler} />
         <HamburgerMenu show={this.state.HamMenuOpen}/>
         {backdrop}
-        <main style={{marginTop: '75px'}}>
-          <h2>THIS IS WHERE STORE INFO WILL BE</h2>
+        <main style={{marginTop: '70px'}}>
+          <h2>TREATS WILL BE SHOWN HERE</h2>
           </main>
       </div>
     );
