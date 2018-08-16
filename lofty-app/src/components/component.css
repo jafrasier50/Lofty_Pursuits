@@ -1,0 +1,125 @@
+/* Menubar CSS */
+
+.menubar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #17A46E;
+    height: 56px;
+}
+.menubar_navigaton {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.menubar_logo {
+    margin-left: 1rem;
+}
+
+.menubar_logo a {
+    color: #FBB516;
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 2rem
+}
+
+.spacer {
+    flex: 1;
+}
+
+.menubar_navigation-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menubar_navigation-items li {
+    padding: 0 0.5rem;
+}
+
+.menubar_navigation-items a {
+    color:white;
+    text-decoration: none;
+}
+
+.menubar_navigation-items a:hover,
+.menubar_navigation-items a:active {
+    color:purple
+}
+
+/* HamburgerButton/menu Css */
+
+.toggle-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 24px;
+    width:30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.toggle-button:focus {
+    outline: none;
+}
+
+.toggle-button_line {
+    width: 25px;
+    height: 2px;
+    background-color:purple;
+}
+
+.hamburgerMenu {
+    height: 100%;
+    background-color: darkslateblue;
+    box-shadow: 2px 0px 5px rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70%;
+    max-width: 300px;
+    z-index: 200;
+}
+
+.hamburgerMenu ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hamburgerMenu li {
+    margin: 0.5rem 0;
+}
+
+.hamburgerMenu a {
+    color: #FBB516;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.hamburgerMenu a:hover,
+.hamburgerMenu a:active {
+    color: white
+}
+
+/* backdrop CSS */
+
+.backdrop {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 100;
+}
