@@ -10,24 +10,27 @@ class App extends Component {
   };
 
   HamMenuToggleClickHandler = () => {
+
     this.setState((prevState) => {
       return {HamMenuOpen: !prevState.HamMenuOpen};
     });
   };
 
+  backdropClickHandler = () => {
+    this.setState({HamMenuOpen: false});
+  }
+
   render() {
-    let hamMenu;
     let backdrop;
     if (this.state.HamMenuOpen){
-      hamMenu =  <HamburgerMenu />;
-      backdrop = <Backdrop />
+      backdrop = <Backdrop click={this.backdropClickHandler}/>
     }
     return (
       <div style={{height: '100%'}}>
         <Menubar HamMenuClickHandler={this.HamMenuToggleClickHandler} />
-        {hamMenu}
+        <HamburgerMenu show={this.state.HamMenuOpen}/>
         {backdrop}
-        <main style={{marginTop: '64px'}}>
+        <main style={{marginTop: '75px'}}>
           <h2>THIS IS WHERE STORE INFO WILL BE</h2>
           </main>
       </div>

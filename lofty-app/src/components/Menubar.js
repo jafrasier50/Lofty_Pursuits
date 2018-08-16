@@ -5,8 +5,8 @@ import './component.css'
 const Menubar = props => (
     <header className="menubar">
         <nav className="menubar_navigaton">
-            <div>
-                <HamMenuButton/>
+            <div className="hamMenu_toggle-button">
+                <HamMenuButton click={props.HamMenuClickHandler}/>
             </div>
             <div className="menubar_logo"><a href="/">Lofty Pursuits</a></div>
             <div className="spacer"></div>
