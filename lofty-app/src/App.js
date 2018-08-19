@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Menubar from "./components/Menubar";
 import HamburgerMenu from "./components/HamburgerMenu";
 import Backdrop from "./components/Backdrop";
+import Footer from "./components/Footer";
 
 class App extends Component {
 
@@ -31,8 +32,11 @@ class App extends Component {
         <HamburgerMenu show={this.state.HamMenuOpen}/>
         {backdrop}
         <main style={{marginTop: '70px'}}>
+        <TreatsComponent/>
+        
           <h2>TREATS WILL BE SHOWN HERE</h2>
           </main>
+        <Footer />
       </div>
     );
   }

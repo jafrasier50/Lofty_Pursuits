@@ -1,10 +1,10 @@
-/* body CSS */
+/* <------------body CSS-------------> */
 
 body{
     background-color: gray
 }
 
-/* Menubar CSS */
+/* <-----------Menubar CSS-----------> */
 
 .menubar {
     position: fixed;
@@ -51,16 +51,17 @@ body{
 }
 
 .menubar_navigation-items a {
-    color:white;
+    color:#FBB516;
     text-decoration: none;
+    justify-content: right
 }
 
 .menubar_navigation-items a:hover,
 .menubar_navigation-items a:active {
-    color: #FBB516;
+    color: white;
 }
 
-/* HamburgerButton/menu Css */
+/* <---------HamburgerButton/menu Css------> */
 
 .toggle-button {
     display: flex;
@@ -126,7 +127,7 @@ body{
     color: white
 }
 
-/* backdrop CSS */
+/* <-------------backdrop CSS------------> */
 
 .backdrop {
     position: fixed;
@@ -138,9 +139,81 @@ body{
     z-index: 100;
 }
 
+/* <--------------Footer CSS--------------> */
+
+.footer {
+    width: 100%;
+    border-top: .2rem solid #17A46E;
+    border-bottom: .2rem solid #17A46E;
+    background-color: #094166;
+    height: auto;
+}
+
+.footer_logo{
+    max-width: 400px;
+    background-color: gray
+}
+
+.footer_navigaton {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.footer_navigation-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    padding: 15px;
+    
+}
+
+.footer-content{
+    color: #FBB516
+}
+
+.footer_navigation-items li{
+    list-style: none
+}
+
+.footer_navigation-items a {
+    padding: 0 0.5rem;
+    color: #FBB516;
+    text-decoration: none;
+    
+}
+
+.footer_navigation-items a:hover,
+.footer_navigation-items a:active {
+    color: white;
+}
+
+/* <-------------Media Queries-------------> */
 @media(max-width:976px) {
     .menubar_navigation-items{
         display: none;
+    }
+
+    .footer-content{
+        text-align: center;
+        color: #FBB516
+    }
+
+    .footer_navigation-items{
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+        
+        
+    }
+    .footer_navigation-items li{
+        padding: 3px;
+    
     }
 }
 
@@ -154,5 +227,23 @@ body{
     .menubar_logo {
         margin-left: 0;
     }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        display: flex;
+        justify-content: left;;
+    }
+
+    .footer-content{
+        width: 50%;
+        text-align: center;
+    }
+
+    .footer_navigation{
+        width: 50%;
+    }
+
+    
 }
 
