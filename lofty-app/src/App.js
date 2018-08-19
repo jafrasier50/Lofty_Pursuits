@@ -27,17 +27,7 @@ class App extends Component {
       backdrop = <Backdrop click={this.backdropClickHandler}/>
     }
     return (
-      <div style={{height: '100%'}}>
-        <Menubar HamMenuClickHandler={this.HamMenuToggleClickHandler} />
-        <HamburgerMenu show={this.state.HamMenuOpen}/>
-        {backdrop}
-        <main style={{marginTop: '70px'}}>
-        <TreatsComponent/>
-        
-          <h2>TREATS WILL BE SHOWN HERE</h2>
-          </main>
-        <Footer />
-      </div>
+     
     );
   }
 }

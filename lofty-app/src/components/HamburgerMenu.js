@@ -10,15 +10,15 @@ const HamburgerMenu = props => {
 return (
     <nav className={hamMenuClasses}>
         <ul>
-            <li><a href="/">Toys</a></li>
-            <li><a href="/">Ice Cream</a></li>
-            <li><a href="/">Candy</a></li>
-            <li><a href="/">Our Menu</a></li>
-            <li><a href="/">Parties</a></li>
-            <li><a href="/">Catering</a></li>
-            <li><a href="/">Marching Band</a></li>
-            <li><a href="/">Tour Groups</a></li>
-            <li><a href="/">Contact</a></li>
+            <li><a href="/toys">Toys</a></li>
+            <li><a href="/icecream">Ice Cream</a></li>
+            <li><a href="/candy">Candy</a></li>
+            <li><a href="/menu">Our Menu</a></li>
+            <li><a href="/parties">Parties</a></li>
+            <li><a href="/catering">Catering</a></li>
+            <li><a href="/marchingband">Marching Band</a></li>
+            <li><a href="/tours">Tour Groups</a></li>
+            <li><a href="/contact">Contact</a></li>
         </ul>
     </nav>
     );
