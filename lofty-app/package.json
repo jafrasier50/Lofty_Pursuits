@@ -2,7 +2,6 @@
   "name": "lofty-app",
   "version": "0.1.0",
   "private": true,
-  
   "dependencies": {
     "react": "16.4.2",
     "react-dom": "16.4.2",
@@ -23,8 +22,10 @@
     "watch": "concurrently --names \"webpack, stylus\" --prefix name \"npm run start\" \"npm run styles:watch\"",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "styles": "stylus -u autoprefixer-stylus ./src/css/style.styl -o ./src/css/style.css",
-    "styles:watch": "stylus -u autoprefixer-stylus -w ./src/css/style.styl -o ./src/css/style.css",
-
+    "styles": "stylus -u autoprefixer-stylus ./src/candy_machine/css/style.styl -o ./src/candy_machine/css/style.css",
+    "styles:watch": "stylus -u autoprefixer-stylus -w ./src/candy_machine/css/style.styl -o ./src/candy_machine/css/style.css"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.3"
   }
 }

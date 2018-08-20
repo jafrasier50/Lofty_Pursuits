@@ -15,6 +15,7 @@ body{
     border-bottom: .2rem solid #17A46E;
     background-color: #094166;
     height: auto;
+    z-index: 50;
 }
 .menubar_navigaton {
     display: flex;
@@ -176,8 +177,10 @@ body{
     color: #FBB516
 }
 
-.footer_navigation-items li{
-    list-style: none
+.footer_navigation-items li {
+    list-style: none;
+    margin-top: 15px; 
+   
 }
 
 .footer_navigation-items a {
@@ -190,6 +193,12 @@ body{
 .footer_navigation-items a:hover,
 .footer_navigation-items a:active {
     color: white;
+}
+
+/* <--------------catch of the day placement----------> */
+.catch-of-the-day{
+    padding: 20px;
+    z-index: -100;
 }
 
 /* <-------------Media Queries-------------> */
