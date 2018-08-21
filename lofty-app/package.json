@@ -3,19 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "autoprefixer-stylus": "0.14.0",
+    "concurrently": "3.5.1",
+    "firebase": "^4.10.1",
+    "prop-types": "^15.6.0",
+    "re-base": "3.2.2",
     "react": "16.4.2",
     "react-dom": "16.4.2",
+    "react-parallax": "^1.8.0",
+    "react-pdf": "^3.0.5",
     "react-router": "4.3.1",
     "react-router-dom": "4.3.1",
     "react-scripts": "1.1.4",
     "react-transition-group": "^2.2.1",
-    "stylus": "0.54.5",
     "serve": "^6.5.8",
-    "autoprefixer-stylus": "0.14.0",
-    "firebase": "^4.10.1",
-    "prop-types": "^15.6.0",
-    "re-base": "3.2.2",
-    "concurrently": "3.5.1"
+    "stylus": "0.54.5"
   },
   "scripts": {
     "start": "react-scripts start",

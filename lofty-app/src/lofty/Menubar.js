@@ -1,5 +1,4 @@
 import React from 'react';
-import HamMenuButton from "./HamMenuButton"
 import './component.css'
 import loftylogo from '../images/loftylogo.svg'
 import Backdrop from './Backdrop'
@@ -25,7 +24,6 @@ class Menubar extends React.Component {
     render(){
 
 
-        const {HamMenuClickHandler} = this.props
 
         let backdrop;
 
@@ -45,7 +43,7 @@ class Menubar extends React.Component {
                     <div className="toggle-button_line"/>                
                 </button>
                 </div>
-                <div className="menubar_logo"><a href="/"><img style={{ paddingTop: '.5rem', paddingBottom: '.1rem', width: '120px', height: 'auto'}} src={loftylogo}/></a></div>
+                <div className="menubar_logo"><a href="/"><img style={{ paddingTop: '.5rem', paddingBottom: '.1rem', width: '120px', height: 'auto'}} src={loftylogo} alt="Lofty Pursuits"/></a></div>
                 <HamburgerMenu show={this.state.HamMenuOpen} />
                 <div className="spacer"></div>
                 <div className="menubar_navigation-items">

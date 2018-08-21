@@ -4,7 +4,7 @@ import './component.css'
 const Footer = props => (
     <footer className="footer">
         <div className="footer-content">
-           <h3> This is where something else will go.</h3>
+           <h3> Looks like you found a footer. At least it doesn't smell.</h3>
         </div>
      
                 <ul className="footer_navigation-items footer_navigation ">
@@ -18,6 +18,7 @@ const Footer = props => (
                     <li><a href="/tours">Tour Groups</a></li>
                     <li><a href="/contact">Contact</a></li>
                 </ul>
+                <div className="copyright"><p>Lofty Pursuits© 2018</p></div>
     </footer>
 );
 
