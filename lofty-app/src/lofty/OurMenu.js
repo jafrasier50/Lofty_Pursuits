@@ -1,11 +1,11 @@
 import React from 'react';
 import './component.css'
 import BreakfastMenu from "./BreakfastMenu";
-import MenuParralax from "./MenuParallax"
+import MenuParallax from "./MenuParallax"
 const OurMenu = props => (
    <div className="breakfastMenu_container"><br/>
 
-   <MenuParralax />
+   <MenuParallax id="our_menu-Parallax"/>
  
     <div className="breakfast-info">
         

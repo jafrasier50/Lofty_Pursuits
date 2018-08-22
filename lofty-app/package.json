@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "autoprefixer-stylus": "0.14.0",
+    "body-parser": "^1.18.3",
     "concurrently": "3.5.1",
+    "express": "^4.16.3",
     "firebase": "^4.10.1",
     "prop-types": "^15.6.0",
     "re-base": "3.2.2",
@@ -15,8 +17,10 @@
     "react-router": "4.3.1",
     "react-router-dom": "4.3.1",
     "react-scripts": "1.1.4",
+    "react-stripe-elements": "^2.0.1",
     "react-transition-group": "^2.2.1",
     "serve": "^6.5.8",
+    "stripe": "^6.7.0",
     "stylus": "0.54.5"
   },
   "scripts": {

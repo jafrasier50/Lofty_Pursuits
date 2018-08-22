@@ -55,9 +55,9 @@ header.top
   
   display flex
   height 90vh
-  max-width:1500px
+  max-width: 100%
   margin 0 auto
-  margin-top 5vh
+  margin-top 0vh
   perspective: 1000px;
   transform-style preserve-3d
   & > *
@@ -74,13 +74,14 @@ header.top
       flex-basis 50%
       background lightyellow
     &:nth-child(2)
-      background lightcoral
+      background lightyellow
       border-left 0
       border-right 0
       min-width 300px
     &:last-child
       flex-shrink 1 // take 4x the extra room
       flex-basis 50%
+      background-color lightyellow
 // Folding Transforms
 // Take off folding when not checked
 input#fold:not(:checked) ~ #main

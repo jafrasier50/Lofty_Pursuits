@@ -13,8 +13,6 @@ import IceCream from './lofty/IceCream';
 import OurMenu from './lofty/OurMenu';
 import Parties from './lofty/Parties';
 import Catering from './lofty/Catering';
-import MarchingBand from './lofty/MarchingBand';
-import TourGroups from './lofty/TourGroups';
 import Contact from './lofty/Contact';
 import App from './candy_machine/App'
 
@@ -34,8 +32,6 @@ ReactDOM.render((
             <Route path="/menu" component={OurMenu}/>
             <Route path="/parties" component={Parties}/>
             <Route path="/catering" component={Catering}/>
-            <Route path="/marchingband" component={MarchingBand}/>
-            <Route path="/tours" component={TourGroups}/>
             <Route path="/contact" component={Contact}/>
             <Route path="/candy" component={App} />
         </Switch>

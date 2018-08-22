@@ -204,7 +204,7 @@ body{
 .copyright p{
     max-width: 100%;
 }
-/* <----------Our Menu CSS------------> */
+/* <----------Our Menu route------------> */
 .breakfastMenu_container{
     background-color: #094166;
     display: flex;
@@ -226,11 +226,32 @@ display: flex;
     margin-left: 115px;
 }
 
-.menuParallax{
-    z-index: 50;
+.menu_headline {
+    font-family: 'blanchcaps_inline', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    font-size: 30rem;
+    color: yellow;
+    background-color: rgba(0,0,0,.3);
+    padding: 0px;
+    margin: auto;
+    width: 90%;
+    margin-top: 17rem;
 }
-.menu_headline{
-    z-index: 100;
+
+MenuParallax {
+    font-family: 'blanchcaps_inline', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    font-size: 30rem;
+    color: yellow;
+    background-color: rgba(0,0,0,.2);
+    padding: 0px;
+    margin: auto;
+    width: 90%;
+    margin-top: 10rem;
 }
 
 
@@ -238,6 +259,83 @@ display: flex;
 .catch-of-the-day{
     padding: 20px;
     z-index: -100;
+}
+/* <------------------Home Route------------------> */
+.Home_headline1 {
+    font-family: 'blanchcaps_inline', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    font-size: 25rem;
+    color: yellow;
+    background-color: rgba(0,0,0,.4);
+    padding: 0px;
+    margin: auto;
+    width: 70%;
+    margin-top: 10rem;
+}
+.Home_headline2 {
+    font-family: 'blanchcaps_inline', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    font-size: 25rem;
+    color: yellow;
+    background-color: rgba(0,0,0,.4);
+    padding: 0px;
+    margin: auto;
+    width: 60%;
+    margin-top: 10rem;
+}
+
+
+/* <---------------------Ice cream route----------------> */
+.icecream_headline{
+    font-family: 'blanchcaps_inline', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    font-size: 25rem;
+    color: yellow;
+    background-color: rgba(0,0,0,.4);
+    padding: 0px;
+    margin: auto;
+    width: 60%;
+    margin-top: 10rem;
+}
+
+.icecream-route{
+    width: 80%;
+    margin: auto;
+    background-image: url(src="./images/icecreambackground.jpg");
+}
+.icecream-route h2{
+    line-height: 35px;
+    color: #0070ac;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, .3);
+    padding: 3rem;
+}
+
+/* <-------------------------Candy Route-----------------------> */
+.candy-route {
+    width: 80%;
+    margin: auto;
+    background-color: #094166
+}
+
+.candy_headline{
+    font-family: 'blanchcaps_inline', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    font-size: 25rem;
+    color: yellow;
+    background-color: rgba(0,0,0,.4);
+    padding: 0px;
+    margin: auto;
+    width: 60%;
+    margin-top: 10rem;
 }
 
 /* <-------------Media Queries-------------> */

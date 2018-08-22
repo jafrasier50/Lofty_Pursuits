@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from "prop-types"
-import inventorylogo from "../images/inventorylogo.svg"
 
 const Login = (props) => (
     <nav className="login">
