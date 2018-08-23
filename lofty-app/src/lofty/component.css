@@ -147,6 +147,7 @@ body{
     width: 100%;
     background-color: #094166;
     height: auto;
+    display: block
 }
 
 #footer-logo{
@@ -372,7 +373,7 @@ MenuParallax {
     text-align: center;
     font-weight: normal;
     margin: 0;
-    font-size: 25rem;
+    font-size: 20vw;
     color: yellow;
     background-color: rgba(0,0,0,.4);
     padding: 0px;
@@ -381,7 +382,18 @@ MenuParallax {
     margin-top: 10rem;
 }
 
-
+@media(max-width:976px) {
+    .candy-route{
+        width: 100%;
+    }
+    .candy-height-parallax{
+        height: 10px;
+        padding:
+    }
+    .candy_headline{
+        font-size: 17vw
+    }
+}
 
 
 

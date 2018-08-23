@@ -336,7 +336,6 @@ header.top h3:after {
       -ms-flex: 1 4 auto;
           flex: 1 4 auto;
   padding: 2rem;
-  border: 1rem double #1a1a1a;
   position: relative;
   background: #fff;
   -webkit-transition: all 0.3s;
@@ -356,6 +355,7 @@ header.top h3:after {
   background: #ffffe0;
   border-left: 0;
   border-right: 0;
+  border-top: 1rem double #1a1a1a;
 }
 .catch-of-the-day > *:last-child {
   -ms-flex-negative: 1;
@@ -385,7 +385,6 @@ header.top h3:after {
         -ms-flex: 1 4 auto;
             flex: 1 4 auto;
     padding: 2rem;
-    border: 1rem double #1a1a1a;
     position: relative;
     background: #fff;
     -webkit-transition: all 0.3s;
@@ -396,17 +395,17 @@ header.top h3:after {
   }
   .catch-of-the-day > *:first-child {
     background: #ffffe0;
-    height: 40vh;
+    height: 60vh;
   }
   .catch-of-the-day > *:nth-child(2) {
     background: #ffffe0;
     border-left: 0;
     border-right: 0;
-    height: 40vh;
+    height: 60vh;
+    display: block;
   }
   .catch-of-the-day > *:last-child {
-    background-color: #ffffe0;
-    height: 40vh;
+    display: none;
   }
 }
 input#fold:not(:checked) ~ #main .catch-of-the-day > * {

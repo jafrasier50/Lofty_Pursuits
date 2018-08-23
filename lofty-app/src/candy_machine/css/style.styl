@@ -63,7 +63,6 @@ header.top
   & > *
     flex 1 4 auto
     padding 2rem
-    border 1rem double lighten(black,10%)
     position relative
     background white
     transition all 0.3s
@@ -77,6 +76,8 @@ header.top
       background lightyellow
       border-left 0
       border-right 0
+      border-top 1rem double lighten(black,10%)
+
       
     &:last-child
       flex-shrink 1 // take 4x the extra room
@@ -96,26 +97,23 @@ header.top
     & > *
       flex 1 4 auto
       padding 2rem
-      border 1rem double lighten(black,10%)
       position relative
       background white
       transition all 0.3s
       box-shadow 0 5px 5px rgba(0,0,0,0.1)
       overflow scroll
       &:first-child
-    
         background lightyellow
-    
-        height 40vh
+        height 60vh
       &:nth-child(2)
         background lightyellow
         border-left 0
         border-right 0
-        height 40vh
+        height 60vh
+        display block
+
       &:last-child
-      
-        background-color lightyellow
-        height 40vh
+        display: none
     
 // Folding Transforms
 // Take off folding when not checked

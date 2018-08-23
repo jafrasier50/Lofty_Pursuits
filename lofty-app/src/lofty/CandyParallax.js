@@ -14,7 +14,7 @@ const CandyParallax = () => (
       strength={200}
     >
       <h1 className="candy_headline">EAT<br/>MORE<br/>CANDY<br/></h1>
-      <div style={{ height: '100px' }} />
+      <div className="candy-height-parallax"/>
     </Parallax>
   </div>
 );

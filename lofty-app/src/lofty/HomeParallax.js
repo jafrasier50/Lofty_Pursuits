@@ -14,6 +14,8 @@ const HomeParallax = () => (
       strength={200}
     >
       <h1 className="Home_headline1">LOFTY PURSUITS</h1>
+      <div style={{ height: '170px' }} />
+
      
     </Parallax>
     <Parallax 
@@ -23,19 +25,23 @@ const HomeParallax = () => (
       bgImage={require('../images/humbug.jpg')}
       bgImageAlt="Custom Waffle Creation by Josh Frasier"
       strength={200}
+
     >
-      <h1 className="Home_headline2">Tallahassee</h1>
+      <h1 className="Home_headline2">Tallahassee</h1>  
+      <div style={{ height: '100px' }} />
+
      
     </Parallax>
     <Parallax 
       blur={0}
       bgWidth={'100vw'}
       bgHeight={'auto'}
-      bgImage={require('../images/LoftyBreakfast.jpg')}
+      bgImage={require('../images/LoftyBreakfast1.jpg')}
       bgImageAlt="Custom Waffle Creation by Josh Frasier"
       strength={200}
     >
       <h1 className="Home_headline1">Florida</h1>
+      <div style={{ height: '100px' }} />
      
     </Parallax>
   </div>
