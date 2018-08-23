@@ -1,7 +1,7 @@
 /* <------------body CSS-------------> */
 
 body{
-    background-color: #17A46E
+    background-color: #179A63;
 }
 
 /* <-----------Menubar CSS-----------> */
@@ -52,7 +52,7 @@ body{
 }
 
 .menubar_navigation-items a {
-    color:#FBB516;
+    color:#FFDA00;
     text-decoration: none;
 }
 
@@ -83,7 +83,7 @@ body{
 .toggle-button_line {
     width: 25px;
     height: 2px;
-    background-color:#FBB516;
+    background-color:#FFDA00;
 }
 
 .hamburger-menu {
@@ -117,7 +117,7 @@ body{
 }
 
 .hamburger-menu a {
-    color: #FBB516;
+    color: #FFDA00;
     text-decoration: none;
     font-size: 1.5rem;
 }
@@ -143,16 +143,15 @@ body{
 /* <--------------Footer CSS--------------> */
 
 .footer {
+    margin-top: 50px0;
     width: 100%;
-    border-top: .2rem solid #17A46E;
-    border-bottom: .2rem solid #17A46E;
     background-color: #094166;
     height: auto;
 }
 
-.footer_logo{
-    max-width: 400px;
-    background-color: gray
+#footer-logo{
+    width: 20rem;
+    
 }
 
 .footer_navigaton {
@@ -162,25 +161,15 @@ body{
     padding: 0 1rem;
 }
 
-.footer_navigation-items ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    padding: 15px;
+.footer_navigation-items footer_navigation ul{
+    text-align: center;
+   
     
 }
 
 .footer-content{
-    color: #FBB516;
+    color: #FFDA00;
     line-height: 40px
-}
-
-.footer_navigation-items ul{
-    margin-top: 15px
 }
 
 .footer_navigation-items li {
@@ -191,7 +180,7 @@ body{
 
 .footer_navigation-items a {
     padding: 0 0.5rem;
-    color: #FBB516;
+    color: #FFDA00;
     text-decoration: none;
     
 }
@@ -201,8 +190,36 @@ body{
     color: white;
 }
 
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #B62A91;
+    color: white;
+}
+
 .copyright p{
     max-width: 100%;
+    color: #FFDA00;
+    margin:auto;
+    text-align: center;
+    border-top: .2rem solid rgb(17, 131, 87);
+    padding: 5px
 }
 /* <----------Our Menu route------------> */
 .breakfastMenu_container{
@@ -210,7 +227,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    max-width: 1500px;
+    max-width: 80%;
 }
 
 
@@ -220,7 +237,7 @@ display: flex;
 
 
 .breakfast-info h3 {
-    color: #FBB516;
+    color: #FFDA00;
     text-align: center;
     line-height: 35px;
     margin-left: 115px;
@@ -231,7 +248,7 @@ display: flex;
     text-align: center;
     font-weight: normal;
     margin: 0;
-    font-size: 30rem;
+    font-size: 15vw;
     color: yellow;
     background-color: rgba(0,0,0,.3);
     padding: 0px;
@@ -245,12 +262,12 @@ MenuParallax {
     text-align: center;
     font-weight: normal;
     margin: 0;
-    font-size: 30rem;
+    font-size: 20vw;
     color: yellow;
     background-color: rgba(0,0,0,.2);
     padding: 0px;
     margin: auto;
-    width: 90%;
+    width: 100%;
     margin-top: 10rem;
 }
 
@@ -266,28 +283,48 @@ MenuParallax {
     text-align: center;
     font-weight: normal;
     margin: 0;
-    font-size: 25rem;
+    font-size: 20vw;
+    
     color: yellow;
     background-color: rgba(0,0,0,.4);
     padding: 0px;
     margin: auto;
-    width: 70%;
-    margin-top: 10rem;
+    width: 50%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .Home_headline2 {
     font-family: 'blanchcaps_inline', sans-serif;
     text-align: center;
     font-weight: normal;
     margin: 0;
-    font-size: 25rem;
+    font-size: 20vw;
     color: yellow;
     background-color: rgba(0,0,0,.4);
     padding: 0px;
     margin: auto;
     width: 60%;
-    margin-top: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.quote-container{
+    background-color: #0070ac
+}
+.quotes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    text-align: start;
 }
 
+.quote{
+    padding: 15px;
+    color: #FFDA00;
+    max-width: 300px;
+    margin: auto;
+}
 
 /* <---------------------Ice cream route----------------> */
 .icecream_headline{
@@ -295,7 +332,7 @@ MenuParallax {
     text-align: center;
     font-weight: normal;
     margin: 0;
-    font-size: 25rem;
+    font-size: 20vw;
     color: yellow;
     background-color: rgba(0,0,0,.4);
     padding: 0px;
@@ -305,7 +342,7 @@ MenuParallax {
 }
 
 .icecream-route{
-    width: 80%;
+    width: 90%;
     margin: auto;
     background-image: url(src="./images/icecreambackground.jpg");
 }
@@ -316,10 +353,16 @@ MenuParallax {
     background-color: rgba(255, 255, 255, .3);
     padding: 3rem;
 }
+@media(max-width:767px) {
+    Parallax{
+        Height: 2301px;
+    }
+}
+
 
 /* <-------------------------Candy Route-----------------------> */
 .candy-route {
-    width: 80%;
+    width: 90%;
     margin: auto;
     background-color: #094166
 }
@@ -334,9 +377,22 @@ MenuParallax {
     background-color: rgba(0,0,0,.4);
     padding: 0px;
     margin: auto;
-    width: 60%;
+    width: 50%;
     margin-top: 10rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* <-------------Media Queries-------------> */
 @media(max-width:976px) {
@@ -377,13 +433,13 @@ MenuParallax {
 
     .footer {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         display: flex;
-        justify-content: left;;
+
     }
 
     .footer-content{
-        width: 50%;
+        width: 100%;
         text-align: center;
     }
 

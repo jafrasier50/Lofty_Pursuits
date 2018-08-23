@@ -356,7 +356,6 @@ header.top h3:after {
   background: #ffffe0;
   border-left: 0;
   border-right: 0;
-  min-width: 300px;
 }
 .catch-of-the-day > *:last-child {
   -ms-flex-negative: 1;
@@ -364,6 +363,51 @@ header.top h3:after {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   background-color: #ffffe0;
+}
+@media (max-width: 975px) {
+  .catch-of-the-day {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 90vh;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 0vh;
+    -webkit-perspective: 1000px;
+            perspective: 1000px;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+  }
+  .catch-of-the-day > * {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 4 auto;
+            flex: 1 4 auto;
+    padding: 2rem;
+    border: 1rem double #1a1a1a;
+    position: relative;
+    background: #fff;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+    overflow: scroll;
+  }
+  .catch-of-the-day > *:first-child {
+    background: #ffffe0;
+    height: 40vh;
+  }
+  .catch-of-the-day > *:nth-child(2) {
+    background: #ffffe0;
+    border-left: 0;
+    border-right: 0;
+    height: 40vh;
+  }
+  .catch-of-the-day > *:last-child {
+    background-color: #ffffe0;
+    height: 40vh;
+  }
 }
 input#fold:not(:checked) ~ #main .catch-of-the-day > * {
   -webkit-transform: none;
@@ -446,6 +490,8 @@ ul.order li span.count span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;

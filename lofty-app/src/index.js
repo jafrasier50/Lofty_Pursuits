@@ -8,7 +8,6 @@ import Menubar from './lofty/Menubar';
 import Footer from './lofty/Footer';
 import registerServiceWorker from './registerServiceWorker';
 import Home from './lofty/Home';
-import Toys from './lofty/Toys';
 import IceCream from './lofty/IceCream';
 import OurMenu from './lofty/OurMenu';
 import Parties from './lofty/Parties';
@@ -27,7 +26,6 @@ ReactDOM.render((
            
         <Switch>
             <Route exact path="/" component={Home}/>
-            <Route path="/toys" component={Toys}/>
             <Route path="/icecream" component={IceCream}/>
             <Route path="/menu" component={OurMenu}/>
             <Route path="/parties" component={Parties}/>

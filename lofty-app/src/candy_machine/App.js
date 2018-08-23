@@ -100,31 +100,32 @@ class App extends React.Component {
                 <div className="candy-parallax">
                 <CandyParallax />
                 </div>
-
-                <div className="catch-of-the-day">
-                    <div className="menu">
-                        <Header id="candy-tagline"tagline="Victrorian Era Treats" />
-                        <ul className="fishes">
-                            {Object.keys(this.state.fishes).map(key => (
-                            <Fish 
-                            key={key} 
-                            index={key}
-                            details={this.state.fishes[key]} 
-                            addToOrder={this.addToOrder}   
+                <div className="candy-machine-container">
+                    <div className="catch-of-the-day">
+                        <div className="menu">
+                            <Header id="candy-tagline"tagline="Victrorian Era Treats" />
+                            <ul className="fishes">
+                                {Object.keys(this.state.fishes).map(key => (
+                                <Fish 
+                                key={key} 
+                                index={key}
+                                details={this.state.fishes[key]} 
+                                addToOrder={this.addToOrder}   
+                                />
+                                ))}
+                            </ul>
+                        </div>
+                        <Order fishes={this.state.fishes} order={this.state.order} removeFromOrder={this.removeFromOrder}/>
+                        <Inventory 
+                            addFish={this.addFish} 
+                            updateFish={this.updateFish}
+                            deleteFish={this.deleteFish}
+                            loadSampleFishes={this.loadSampleFishes}
+                            fishes={this.state.fishes}
+                            storeId={this.props.match.params.storeId}
                             />
-                            ))}
-                        </ul>
+                            </div>
                     </div>
-                    <Order fishes={this.state.fishes} order={this.state.order} removeFromOrder={this.removeFromOrder}/>
-                    <Inventory 
-                        addFish={this.addFish} 
-                        updateFish={this.updateFish}
-                        deleteFish={this.deleteFish}
-                        loadSampleFishes={this.loadSampleFishes}
-                        fishes={this.state.fishes}
-                        storeId={this.props.match.params.storeId}
-                        />
-                </div>
             </div>
         )
     }

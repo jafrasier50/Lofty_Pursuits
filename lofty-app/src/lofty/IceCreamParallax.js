@@ -9,7 +9,7 @@ const IceCreamParallax = () => (
       blur={0}
       bgWidth={'100%'}
       bgHeight={'auto'}
-      bgImage={require('../images/ice_cream.jpg')}
+      bgImage={require('../images/pinkicecream.png')}
       bgImageAlt="Custom Waffle Creation by Josh Frasier"
       strength={200}
     >

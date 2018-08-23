@@ -8,10 +8,10 @@ const HamburgerMenu = props => {
         hamMenuClasses = 'hamburger-menu open';
     }
 return (
+    <div className="hambackdrop">
     <nav className={hamMenuClasses}>
         <ul>
             <h2><li><a href="/">Home</a></li></h2>
-            <h2><li><a href="/toys">Toys</a></li></h2>
             <h2><li><a href="/icecream">Ice Cream</a></li></h2>
             <h2><li><a href="/candy">Candy</a></li></h2>
             <h2><li><a href="/menu">Our Menu</a></li></h2>
@@ -20,6 +20,7 @@ return (
             <h2><li><a href="/contact">Contact</a></li></h2>
         </ul>
     </nav>
+    </div>
     );
 };
 export default HamburgerMenu;

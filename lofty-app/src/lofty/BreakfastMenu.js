@@ -11,7 +11,7 @@ class BreakfastMenu extends Component {
  
         return (
             <div>
-                <embed classNames="breakfastpdf" src={table_Menu} style={{width: "1500px", height: "900px" }}/>
+                <embed classNames="breakfastpdf" src={table_Menu} style={{width: "100%", height: "auto" }}/>
             </div>
         );
     };

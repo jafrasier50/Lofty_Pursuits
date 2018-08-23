@@ -7,36 +7,36 @@ const HomeParallax = () => (
   <div className="homeParallax">
     <Parallax 
       blur={0}
-      bgWidth={'100%'}
+      bgWidth={'100vw'}
       bgHeight={'auto'}
       bgImage={require('../images/superman.png')}
       bgImageAlt="Custom Waffle Creation by Josh Frasier"
       strength={200}
     >
-      <h1 className="Home_headline1">LOFTY<br/>PURSUITS</h1>
-      <div style={{ height: '250px' }} />
+      <h1 className="Home_headline1">LOFTY PURSUITS</h1>
+     
     </Parallax>
     <Parallax 
       blur={0}
-      bgWidth={'100%'}
+      bgWidth={'100vw'}
       bgHeight={'auto'}
       bgImage={require('../images/humbug.jpg')}
       bgImageAlt="Custom Waffle Creation by Josh Frasier"
       strength={200}
     >
       <h1 className="Home_headline2">Tallahassee</h1>
-      <div style={{ height: '250px' }} />
+     
     </Parallax>
     <Parallax 
       blur={0}
-      bgWidth={'100%'}
+      bgWidth={'100vw'}
       bgHeight={'auto'}
       bgImage={require('../images/LoftyBreakfast.jpg')}
       bgImageAlt="Custom Waffle Creation by Josh Frasier"
       strength={200}
     >
       <h1 className="Home_headline1">Florida</h1>
-      <div style={{ height: '250px' }} />
+     
     </Parallax>
   </div>
 );

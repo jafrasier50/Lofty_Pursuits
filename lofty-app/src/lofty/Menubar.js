@@ -48,14 +48,13 @@ class Menubar extends React.Component {
                 <div className="spacer"></div>
                 <div className="menubar_navigation-items">
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/toys">Toys</a></li>
-                        <li><a href="/icecream">Ice Cream</a></li>
-                        <li><a href="/candy">Candy</a></li>
-                        <li><a href="/menu">Our Menu</a></li>
-                        <li><a href="/parties">Parties</a></li>
-                        <li><a href="/catering">Catering</a></li>
-                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/"><strong>Home</strong></a></li>
+                        <li><a href="/icecream"><strong>Ice Cream</strong></a></li>
+                        <li><a href="/candy"><strong>Candy</strong></a></li>
+                        <li><a href="/menu"><strong>Our Menu</strong></a></li>
+                        <li><a href="/parties"><strong>Parties</strong></a></li>
+                        <li><a href="/catering"><strong>Catering</strong></a></li>
+                        <li><a href="/contact"><strong>Contact</strong></a></li>
                     </ul>
                 </div>
             </nav>

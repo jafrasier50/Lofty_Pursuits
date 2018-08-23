@@ -1,24 +1,18 @@
 import React from 'react';
-import './component.css'
+import './component.css';
+import inventorylogo from "../images/inventorylogo.svg";
+
 
 const Footer = props => (
     <footer className="footer">
         <div className="footer-content">
-           <h3> Looks like you found a footer. At least it doesn't smell.</h3>
+            <img id="footer-logo" src={inventorylogo}/>
+            <br/>
+        
+            <p>1355 Market Street #A11 in Tallahassee, FL.</p>
         </div>
      
-                <ul className="footer_navigation-items footer_navigation ">
-                    <li><a href="/toys">Toys</a></li>
-                    <li><a href="/icecream">Ice Cream</a></li>
-                    <li><a href="/candy">Candy</a></li>
-                    <li><a href="/menu">Our Menu</a></li>
-                    <li><a href="/parties">Parties</a></li>
-                    <li><a href="/catering">Catering</a></li>
-                    <li><a href="/marchingband">Marching Band</a></li>
-                    <li><a href="/tours">Tour Groups</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                </ul>
-                <div className="copyright"><p>Lofty Pursuits© 2018</p></div>
+        <div className="copyright"><p>Lofty Pursuits© 2018</p></div>
     </footer>
 );
 
