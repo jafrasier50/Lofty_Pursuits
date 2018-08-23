@@ -52,9 +52,6 @@ class Menubar extends React.Component {
                         <li><a href="/icecream"><strong>Ice Cream</strong></a></li>
                         <li><a href="/candy"><strong>Candy</strong></a></li>
                         <li><a href="/menu"><strong>Our Menu</strong></a></li>
-                        <li><a href="/parties"><strong>Parties</strong></a></li>
-                        <li><a href="/catering"><strong>Catering</strong></a></li>
-                        <li><a href="/contact"><strong>Contact</strong></a></li>
                     </ul>
                 </div>
             </nav>

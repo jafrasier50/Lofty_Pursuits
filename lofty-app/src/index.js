@@ -10,9 +10,6 @@ import registerServiceWorker from './registerServiceWorker';
 import Home from './lofty/Home';
 import IceCream from './lofty/IceCream';
 import OurMenu from './lofty/OurMenu';
-import Parties from './lofty/Parties';
-import Catering from './lofty/Catering';
-import Contact from './lofty/Contact';
 import App from './candy_machine/App'
 
 
@@ -28,9 +25,6 @@ ReactDOM.render((
             <Route exact path="/" component={Home}/>
             <Route path="/icecream" component={IceCream}/>
             <Route path="/menu" component={OurMenu}/>
-            <Route path="/parties" component={Parties}/>
-            <Route path="/catering" component={Catering}/>
-            <Route path="/contact" component={Contact}/>
             <Route path="/candy" component={App} />
         </Switch>
         

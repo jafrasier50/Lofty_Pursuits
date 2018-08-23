@@ -72,10 +72,14 @@ header.top
       flex-shrink 1 // take 4x the extra room
       flex-basis 50%
       background lightyellow
+      max-width 500px
+      border-top 1rem double lighten(black,10%)
+
     &:nth-child(2)
       background lightyellow
       border-left 0
       border-right 0
+      min-width 350px
       border-top 1rem double lighten(black,10%)
 
       
@@ -83,6 +87,9 @@ header.top
       flex-shrink 1 // take 4x the extra room
       flex-basis 50%
       background-color lightyellow
+      max-width 400      
+      border-top 1rem double lighten(black,10%)
+
 
 @media (max-width: 975px)
   .catch-of-the-day

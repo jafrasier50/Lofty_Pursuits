@@ -4,7 +4,7 @@ import './component.css'
 
 
 const MenuParallax = () => (
-  <div classNames="menuParallax">
+  <div className="menuParallax">
     <Parallax 
       blur={1}
       bgImage={require('../images/LoftyBreakfast.jpg')}

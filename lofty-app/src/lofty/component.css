@@ -1,7 +1,9 @@
 /* <------------body CSS-------------> */
 
 body{
-    background-color: #179A63;
+    background-image: url("icecreambackground2.jpg");
+    background-repeat: none;
+
 }
 
 /* <-----------Menubar CSS-----------> */
@@ -147,7 +149,6 @@ body{
     width: 100%;
     background-color: #094166;
     height: auto;
-    display: block
 }
 
 #footer-logo{
@@ -227,13 +228,8 @@ body{
     background-color: #094166;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    max-width: 80%;
-}
-
-
-.breakfast-info{
-display: flex;
+    margin: auto;
+    max-width: 100%;
 }
 
 
@@ -241,7 +237,7 @@ display: flex;
     color: #FFDA00;
     text-align: center;
     line-height: 35px;
-    margin-left: 115px;
+    margin-left: auto;
 }
 
 .menu_headline {
@@ -262,7 +258,7 @@ MenuParallax {
     font-family: 'blanchcaps_inline', sans-serif;
     text-align: center;
     font-weight: normal;
-    margin: 0;
+    margin: auto;
     font-size: 20vw;
     color: yellow;
     background-color: rgba(0,0,0,.2);
@@ -273,10 +269,12 @@ MenuParallax {
 }
 
 
+
 /* <--------------catch of the day placement----------> */
 .catch-of-the-day{
     padding: 20px;
     z-index: -100;
+    border: solid black .5rem
 }
 /* <------------------Home Route------------------> */
 .Home_headline1 {
@@ -309,8 +307,22 @@ MenuParallax {
     margin-bottom: 2rem;
     
 }
+.home-1-parallax{
+    height: 680px;
+}
+
+.home-2-parallax{
+    height: 470px;
+}
+@media(max-width:976){
+    .home-1-parallax{
+        height: 10px;
+    }
+    
+}
+
 .quote-container{
-    background-color: #0070ac
+    background-color: #0070ac;
 }
 .quotes{
     display: flex;
@@ -341,31 +353,48 @@ MenuParallax {
     width: 60%;
     margin-top: 10rem;
 }
+.icecream_headline3{
+    font-family: 'blanchcaps_inline', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    font-size: 20vw;
+    color: yellow;
+    background-color: rgba(0,0,0,.4);
+    padding: 0px;
+    margin: auto;
+    width: 60%;
+    margin-top: 10rem;
+}
+
+.featuredcontent{
+    background-color: #0070ac;
+}
 
 .icecream-route{
-    width: 90%;
+    width: 100%;
     margin: auto;
     background-image: url(src="./images/icecreambackground.jpg");
 }
 .icecream-route h2{
     line-height: 35px;
-    color: #0070ac;
+    color: whitesmoke;
     margin-bottom: 50px;
     background-color: rgba(255, 255, 255, .3);
     padding: 3rem;
 }
-@media(max-width:767px) {
-    Parallax{
-        Height: 2301px;
-    }
-}
+
 
 
 /* <-------------------------Candy Route-----------------------> */
 .candy-route {
-    width: 90%;
+    width: 100%;
     margin: auto;
     background-color: #094166
+}
+
+.candy-height-parallax{
+    height: 70px;
 }
 
 .candy_headline{
@@ -373,7 +402,7 @@ MenuParallax {
     text-align: center;
     font-weight: normal;
     margin: 0;
-    font-size: 20vw;
+    font-size:19vw;
     color: yellow;
     background-color: rgba(0,0,0,.4);
     padding: 0px;

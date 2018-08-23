@@ -350,11 +350,14 @@ header.top h3:after {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   background: #ffffe0;
+  max-width: 500px;
+  border-top: 1rem double #1a1a1a;
 }
 .catch-of-the-day > *:nth-child(2) {
   background: #ffffe0;
   border-left: 0;
   border-right: 0;
+  min-width: 350px;
   border-top: 1rem double #1a1a1a;
 }
 .catch-of-the-day > *:last-child {
@@ -363,6 +366,8 @@ header.top h3:after {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   background-color: #ffffe0;
+  max-width: 400;
+  border-top: 1rem double #1a1a1a;
 }
 @media (max-width: 975px) {
   .catch-of-the-day {

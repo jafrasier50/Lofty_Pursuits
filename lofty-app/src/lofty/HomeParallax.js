@@ -6,42 +6,45 @@ import './component.css'
 const HomeParallax = () => (
   <div className="homeParallax">
     <Parallax 
+      className="home-1-parallax"
       blur={0}
       bgWidth={'100vw'}
-      bgHeight={'auto'}
-      bgImage={require('../images/superman.png')}
+      bgHeight={'120vw'}
+      bgImage={require('../images/superman1.jpg')}
       bgImageAlt="Custom Waffle Creation by Josh Frasier"
       strength={200}
     >
       <h1 className="Home_headline1">LOFTY PURSUITS</h1>
-      <div style={{ height: '170px' }} />
+      <div style={{ height: '70px' }} />
 
      
     </Parallax>
     <Parallax 
+      className="home-1-parallax"
       blur={0}
       bgWidth={'100vw'}
       bgHeight={'auto'}
-      bgImage={require('../images/humbug.jpg')}
+      bgImage={require('../images/humbugs1.png')}
       bgImageAlt="Custom Waffle Creation by Josh Frasier"
       strength={200}
 
     >
       <h1 className="Home_headline2">Tallahassee</h1>  
-      <div style={{ height: '100px' }} />
+      <div style={{ height: '70px' }} />
 
      
     </Parallax>
     <Parallax 
+      className="home-1-parallax"
       blur={0}
       bgWidth={'100vw'}
       bgHeight={'auto'}
-      bgImage={require('../images/LoftyBreakfast1.jpg')}
+      bgImage={require('../images/LoftyBreakfast3.jpg')}
       bgImageAlt="Custom Waffle Creation by Josh Frasier"
       strength={200}
     >
       <h1 className="Home_headline1">Florida</h1>
-      <div style={{ height: '100px' }} />
+      <div style={{ height: '70px' }} />
      
     </Parallax>
   </div>

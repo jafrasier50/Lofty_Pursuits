@@ -13,7 +13,7 @@ const IceCreamParallax2 = () => (
       bgImageAlt="Custom Waffle Creation by Josh Frasier"
       strength={200}
     >
-      <h1 className="icecream_headline2">LOFTY PURSUITS</h1>
+      <h1 className="icecream_headline3">LOFTY PURSUITS</h1>
       <div style={{ height: '200px' }} />
     </Parallax>
     <Parallax 
@@ -35,7 +35,7 @@ const IceCreamParallax2 = () => (
       bgImageAlt="Custom Waffle Creation by Josh Frasier"
       strength={200}
     >
-      <h1 className="icecream_headline2">Florida</h1>
+      <h1 className="icecream_headline3">Florida</h1>
       <div style={{ height: '200px' }} />
     </Parallax>
   </div>

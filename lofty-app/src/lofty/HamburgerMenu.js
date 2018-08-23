@@ -15,9 +15,6 @@ return (
             <h2><li><a href="/icecream">Ice Cream</a></li></h2>
             <h2><li><a href="/candy">Candy</a></li></h2>
             <h2><li><a href="/menu">Our Menu</a></li></h2>
-            <h2><li><a href="/parties">Parties</a></li></h2>
-            <h2><li><a href="/catering">Catering</a></li></h2>
-            <h2><li><a href="/contact">Contact</a></li></h2>
         </ul>
     </nav>
     </div>
